@@ -8,7 +8,7 @@ public class SignUpUIchecks extends BaseClass {
     @Test
     public void testOne() throws InterruptedException {
     	
-    	driver.wait(5000);
+    	//driver.wait(5000);
 
     	// Sign up with wrong Birth Date
     	MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Create New Facebook Account");
